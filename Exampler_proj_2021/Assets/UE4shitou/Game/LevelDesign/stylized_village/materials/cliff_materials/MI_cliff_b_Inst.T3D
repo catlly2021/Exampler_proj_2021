@@ -1,0 +1,34 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_cliff_b_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=B7067DCD4E19BCA1C005BF84FA81A63E
+   Parent=MaterialInstanceConstant'"/Game/LevelDesign/stylized_village/materials/cliff_materials/MI_cliff_a_Inst.MI_cliff_a_Inst"'
+   ScalarParameterValues(0)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="RefractionDepthBias"))
+   TextureParameterValues(0)=(ParameterInfo=(Name="mask_A"),ParameterValue=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_b/T_cliff_b_mask_A.T_cliff_b_mask_A"',ExpressionGUID=DDA8E5BF4F7598DE614BD098444273E7)
+   TextureParameterValues(1)=(ParameterInfo=(Name="mask_B"),ParameterValue=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_b/T_cliff_b_mask_B.T_cliff_b_mask_B"',ExpressionGUID=FBB357F34AC7B4BDBA947BA8DC5FE126)
+   TextureParameterValues(2)=(ParameterInfo=(Name="normal"),ParameterValue=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_b/T_cliff_b_normal.T_cliff_b_normal"',ExpressionGUID=EE23376C4279936ADC14329FA6B2CC43)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=B9283AA14596104041D0DCA42B8F778B
+   ReferencedTextureGuids(1)=B6226ADF4165E467D1B4CD87EC982B38
+   ReferencedTextureGuids(2)=8C99B6B849059948AA71798705A2232F
+   ReferencedTextureGuids(3)=6084153448884997978D0C8501F65D98
+   ReferencedTextureGuids(4)=74A3B7FE4D0366659103EFAA4C4829C3
+   CachedReferencedTextures(0)=Texture2D'"/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend"'
+   CachedReferencedTextures(1)=Texture2D'"/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_basecolor.T_base_cliff_basecolor"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_normal.T_base_cliff_normal"'
+   CachedReferencedTextures(4)=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_A.T_cliff_a_mask_A"'
+   CachedReferencedTextures(5)=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_B.T_cliff_a_mask_B"'
+   CachedReferencedTextures(6)=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_normal.T_cliff_a_normal"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=10.000000,UVChannelIndex=0,TextureReference=/Game/LevelDesign/stylized_village/textures/landscape_textures/moss/T_moss_basecolor.T_moss_basecolor)
+   TextureStreamingData(1)=(SamplingScale=2.000000,UVChannelIndex=0,TextureName="T_base_cliff_basecolor",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_basecolor.T_base_cliff_basecolor)
+   TextureStreamingData(2)=(SamplingScale=2.000000,UVChannelIndex=0,TextureName="T_base_cliff_normal",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_normal.T_base_cliff_normal)
+   TextureStreamingData(3)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_cliff_b_mask_A",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_b/T_cliff_b_mask_A.T_cliff_b_mask_A)
+   TextureStreamingData(4)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_cliff_b_mask_B",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_b/T_cliff_b_mask_B.T_cliff_b_mask_B)
+   TextureStreamingData(5)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_cliff_b_normal",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_b/T_cliff_b_normal.T_cliff_b_normal)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=C97929D146ABC09E2B7092B5D9F71FB1
+End Object

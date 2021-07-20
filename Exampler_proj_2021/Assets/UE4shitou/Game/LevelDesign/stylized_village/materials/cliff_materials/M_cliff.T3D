@@ -1,0 +1,406 @@
+Begin Object Class=/Script/Engine.Material Name="M_cliff"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_3"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=0.130136,G=0.090842,B=0.031896,A=1.000000)
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=48
+      MaterialExpressionGuid=A5D4302946022821FD96AFA2DEE4AEB5
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionTextureSample'"M_cliff:MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionConstant3Vector'"M_cliff:MaterialExpressionConstant3Vector_0"')
+      MaterialExpressionEditorX=-448
+      MaterialExpressionEditorY=-48
+      MaterialExpressionGuid=4A8AA7EA49E319ACDB0039AB8CF2B6D2
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"M_cliff:MaterialExpressionMaterialFunctionCall_1"')
+      B=(Expression=MaterialExpressionVectorParameter'"M_cliff:MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionTextureSampleParameter2D'"M_cliff:MaterialExpressionTextureSampleParameter2D_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-145
+      MaterialExpressionEditorY=-462
+      MaterialExpressionGuid=5EA7F1664445522C1CF939A478058DAF
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_2"
+      A=(Expression=MaterialExpressionLinearInterpolate'"M_cliff:MaterialExpressionLinearInterpolate_1"')
+      B=(Expression=MaterialExpressionVectorParameter'"M_cliff:MaterialExpressionVectorParameter_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionTextureSampleParameter2D'"M_cliff:MaterialExpressionTextureSampleParameter2D_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=107
+      MaterialExpressionEditorY=-467
+      MaterialExpressionGuid=9D0B3441465188171A5054B2E75EC232
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_3"
+      A=(Expression=MaterialExpressionLinearInterpolate'"M_cliff:MaterialExpressionLinearInterpolate_2"')
+      B=(Expression=MaterialExpressionMaterialFunctionCall'"M_cliff:MaterialExpressionMaterialFunctionCall_3"')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'"M_cliff:MaterialExpressionMaterialFunctionCall_2"')
+      MaterialExpressionEditorX=896
+      MaterialExpressionEditorY=-464
+      MaterialExpressionGuid=9655A6454D842612C2EE7B978CB99A9E
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.BlendAngleCorrectedNormals"'
+      FunctionInputs(0)=(ExpressionInputId=471965E548C55D27E606D3832C490AD3,Input=(Expression=MaterialExpressionTextureSampleParameter2D'"M_cliff:MaterialExpressionTextureSampleParameter2D_2"',InputName="BaseNormal",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(1)=(ExpressionInputId=7E2E487F49DE5A67E3A1EFA3FD83D041,Input=(Expression=MaterialExpressionMaterialFunctionCall'"M_cliff:MaterialExpressionMaterialFunctionCall_4"',InputName="AdditionalNormal"))
+      FunctionOutputs(0)=(ExpressionOutputId=E2F3EA0E41E2637BBAA2A4A0FEF38E6A,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=CD557F7C438756BB97EFC2B0FBC2B762
+      Material=Material'"M_cliff"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions03/Blends/Blend_Overlay.Blend_Overlay"'
+      FunctionInputs(0)=(ExpressionInputId=88817477432D9FAD10A549A321ACA1A3,Input=(Expression=MaterialExpressionLinearInterpolate'"M_cliff:MaterialExpressionLinearInterpolate_0"',InputName="Base"))
+      FunctionInputs(1)=(ExpressionInputId=199F573E4F017F639BE3529FE8C8D580,Input=(Expression=MaterialExpressionVectorParameter'"M_cliff:MaterialExpressionVectorParameter_1"',InputName="Blend",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=C17FADFB4135A52E64E751901D7BE521,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-199
+      MaterialExpressionEditorY=-109
+      MaterialExpressionGuid=379CC6DE471CA1003A4D21841CC8CDDC
+      Material=Material'"M_cliff"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/AlphaBlend/WorldAlignedBlend.WorldAlignedBlend"'
+      FunctionInputs(0)=(ExpressionInputId=6D3749034E787D04CA6D8D895AA27A9A,Input=(OutputIndex=-1,InputName="In Explicit Normal"))
+      FunctionInputs(1)=(ExpressionInputId=E3A4301C436434490E223B87513D071D,Input=(OutputIndex=-1,InputName="In World Vector"))
+      FunctionInputs(2)=(ExpressionInputId=20A4BE744AF38C28A1ADD58DF92634A9,Input=(Expression=MaterialExpressionScalarParameter'"M_cliff:MaterialExpressionScalarParameter_3"',InputName="Blend Sharpness"))
+      FunctionInputs(3)=(ExpressionInputId=E048A75748E487D951739B82A759B75A,Input=(Expression=MaterialExpressionScalarParameter'"M_cliff:MaterialExpressionScalarParameter_4"',InputName="Blend Bias"))
+      FunctionInputs(4)=(ExpressionInputId=18897E8F4F28C30C12A23EBB1ED749D6,Input=(OutputIndex=-1,InputName="Clamped?"))
+      FunctionInputs(5)=(ExpressionInputId=7A4F1A9E49DA91ED50C635B9E6DF85E0,Input=(OutputIndex=-1,InputName="Alpha"))
+      FunctionOutputs(0)=(ExpressionOutputId=13B05FBC4E9D2B220EE526802BDF29B6,Output=(OutputName="Alpha"))
+      FunctionOutputs(1)=(ExpressionOutputId=3337EE784A98AF3E0CDD918200DC90C2,Output=(OutputName="w/Vertex Normals"))
+      FunctionOutputs(2)=(ExpressionOutputId=4432FEEA4C1D7316A578FBAB2D00C9C3,Output=(OutputName="w/ Explicit Normal"))
+      MaterialExpressionEditorX=240
+      MaterialExpressionEditorY=-1328
+      MaterialExpressionGuid=6D416DEE494C7563DD9BFAA0DF391C78
+      Material=Material'"M_cliff"'
+      Outputs(0)=(OutputName="Alpha")
+      Outputs(1)=(OutputName="w/Vertex Normals")
+      Outputs(2)=(OutputName="w/ Explicit Normal")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_3"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions03/Blends/Blend_Overlay.Blend_Overlay"'
+      FunctionInputs(0)=(ExpressionInputId=88817477432D9FAD10A549A321ACA1A3,Input=(Expression=MaterialExpressionTextureSample'"M_cliff:MaterialExpressionTextureSample_3"',InputName="Base",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(1)=(ExpressionInputId=199F573E4F017F639BE3529FE8C8D580,Input=(Expression=MaterialExpressionVectorParameter'"M_cliff:MaterialExpressionVectorParameter_3"',InputName="Blend",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=C17FADFB4135A52E64E751901D7BE521,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=640
+      MaterialExpressionEditorY=-754
+      MaterialExpressionGuid=1B5F4907493538EBEA74CB9467412AD5
+      Material=Material'"M_cliff"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_4"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.FlattenNormal"'
+      FunctionInputs(0)=(ExpressionInputId=28AAF19044840619BEBDFC824A64C7A0,Input=(Expression=MaterialExpressionTextureSample'"M_cliff:MaterialExpressionTextureSample_1"',InputName="Normal",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(1)=(ExpressionInputId=03CE862F4BD8BFCC0550048115A40E71,Input=(Expression=MaterialExpressionScalarParameter'"M_cliff:MaterialExpressionScalarParameter_5"',InputName="Flatness"))
+      FunctionOutputs(0)=(ExpressionOutputId=CF2DF7CD446736F3FF50B0A17088C5A7,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=55939609487187FE4346AA9B9FEB641C
+      Material=Material'"M_cliff"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionTextureCoordinate'"M_cliff:MaterialExpressionTextureCoordinate_0"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_cliff:MaterialExpressionScalarParameter_0"')
+      MaterialExpressionEditorX=-1008
+      MaterialExpressionEditorY=176
+      MaterialExpressionGuid=64CE7929403DABAF745327A4435A94AF
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionTextureCoordinate'"M_cliff:MaterialExpressionTextureCoordinate_1"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_cliff:MaterialExpressionScalarParameter_2"')
+      MaterialExpressionEditorX=288
+      MaterialExpressionEditorY=-704
+      MaterialExpressionGuid=1C82F2B4498F061E3087D2B16A9B85D2
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=4.000000
+      ParameterName="scale_UV_FarDistance"
+      ExpressionGUID=77C9CC1B482D636F1A08EC8495825D65
+      MaterialExpressionEditorX=-1216
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=F2BBA1EA4B624292D829D7BF2380465C
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=1.000000
+      ParameterName="roughness"
+      ExpressionGUID=71AAB9CC412765DF70C1E2937FEAAB00
+      MaterialExpressionEditorX=1168
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=54B1C2FD46AD5922A9D30583738AD799
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=10.000000
+      ParameterName="scale_UV_moss"
+      ExpressionGUID=1DDEB8EA45BEB8BCC1427CACF64728A6
+      MaterialExpressionEditorX=128
+      MaterialExpressionEditorY=-656
+      MaterialExpressionGuid=17CF2E0C48F522D2A28B1DA922DB9527
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      ParameterName="blend_sharp"
+      ExpressionGUID=35A2DD9147394A99AFF7169C38C05EDA
+      MaterialExpressionEditorX=48
+      MaterialExpressionEditorY=-1296
+      MaterialExpressionGuid=C2A6DAA94DC9C61CDE8D60B72767FF5C
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      ParameterName="blend_bias"
+      ExpressionGUID=B3D10A1C4CCADF567C295EAEC8F8A294
+      MaterialExpressionEditorX=48
+      MaterialExpressionEditorY=-1216
+      MaterialExpressionGuid=89968FF746F40005BB66679FFEC6506E
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_5"
+      DefaultValue=1.000000
+      ParameterName="normal_rock_details"
+      ExpressionGUID=BD5BAAF4450A44455395599E31619ADF
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=89337CB74B5B867545A33D939F419411
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      MaterialExpressionEditorX=-1200
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=6B4BB3824FECA2E413648D850B9E9E0A
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_1"
+      MaterialExpressionEditorX=128
+      MaterialExpressionEditorY=-736
+      MaterialExpressionGuid=32C900B24091B5C14EF0428A022EE3AB
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_cliff:MaterialExpressionMultiply_0"')
+      Texture=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_basecolor.T_base_cliff_basecolor"'
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=-192
+      MaterialExpressionGuid=BAE0165B408DC48B45E78F847315B34A
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_cliff:MaterialExpressionMultiply_0"')
+      Texture=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_normal.T_base_cliff_normal"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=C0E87E2F45CFEF11237856A957AF6C59
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_cliff:MaterialExpressionMultiply_1"')
+      Texture=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_basecolor.T_base_cliff_basecolor"'
+      MaterialExpressionEditorX=400
+      MaterialExpressionEditorY=-720
+      MaterialExpressionGuid=79CE566045A7AD31C8FE7B8D64C7223B
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_0"
+      ParameterName="mask_A"
+      ExpressionGUID=DDA8E5BF4F7598DE614BD098444273E7
+      Texture=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_A.T_cliff_a_mask_A"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=-528
+      MaterialExpressionGuid=7454CB344608AD60B2C7EB843B66CA06
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_1"
+      ParameterName="mask_B"
+      ExpressionGUID=FBB357F34AC7B4BDBA947BA8DC5FE126
+      Texture=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_B.T_cliff_a_mask_B"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=-816
+      MaterialExpressionGuid=73C786A34878E0F082F51895F5D4815F
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_2"
+      ParameterName="normal"
+      ExpressionGUID=EE23376C4279936ADC14329FA6B2CC43
+      Texture=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_normal.T_cliff_a_normal"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=608
+      MaterialExpressionGuid=A2A6CD10419BBD0C08DA9ABD74A3BBFD
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.072917,G=0.041091,B=0.014431,A=0.000000)
+      ParameterName="color_mask_A"
+      ExpressionGUID=81545565408743AFDCEFD2AF5A3E3CD6
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=-720
+      MaterialExpressionGuid=4A7A37464EB045807A9F048B5B28EAD6
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_1"
+      DefaultValue=(R=0.500000,G=0.500000,B=0.500000,A=0.000000)
+      ParameterName="hue_color"
+      ExpressionGUID=E1EE18F64F68FBFE8ECEBC8E18973CFD
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=-240
+      MaterialExpressionGuid=9A58F07F49AD17F9526894BB59EBA64D
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=0.343750,G=0.240618,B=0.106393,A=0.000000)
+      ParameterName="color_mask_B"
+      ExpressionGUID=7D7E6131473C8FAD94881A9DB10BA291
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=-1024
+      MaterialExpressionGuid=4B4469964A4ACF241BBC34A7EDE54B94
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_3"
+      DefaultValue=(R=0.500000,G=0.500000,B=0.500000,A=0.000000)
+      ParameterName="hue_color_moss"
+      ExpressionGUID=A76564454F615F3190A492B05D9FC4FB
+      MaterialExpressionEditorX=375
+      MaterialExpressionEditorY=-919
+      MaterialExpressionGuid=58D8A62346F47FA22C41EDB1F3A859A5
+      Material=Material'"M_cliff"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_3"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"')
+   Normal=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"')
+   bUsedWithStaticLighting=True
+   EditorX=912
+   Expressions(0)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_3"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(2)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(3)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_2"'
+   Expressions(4)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   Expressions(5)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(6)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(7)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_0"'
+   Expressions(8)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(9)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(10)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(11)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"'
+   Expressions(12)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_1"'
+   Expressions(13)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_0"'
+   Expressions(14)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_1"'
+   Expressions(15)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(16)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"'
+   Expressions(17)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_1"'
+   Expressions(18)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   Expressions(19)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   Expressions(20)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_1"'
+   Expressions(21)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(22)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"'
+   Expressions(23)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"'
+   Expressions(24)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_4"'
+   Expressions(25)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_3"'
+   Expressions(26)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_3"'
+   Expressions(27)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_5"'
+   Expressions(28)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_4"'
+   Expressions(29)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_2"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   ParameterGroupData(4)=(GroupName="None")
+   ParameterGroupData(5)=(GroupName="None")
+   ParameterGroupData(6)=(GroupName="None")
+   ParameterGroupData(7)=(GroupName="None")
+   ParameterGroupData(8)=(GroupName="None")
+   ParameterGroupData(9)=(GroupName="None")
+   ParameterGroupData(10)=(GroupName="None")
+   ParameterGroupData(11)=(GroupName="None")
+   ParameterGroupData(12)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=8DBF6003481F5396E03B9E8B30F07BCF
+   CachedExpressionData=(Parameters=(Entries[0]=(NameHashes=(440574345582452634,2190969804725944673,3386157245229810338,7226407716428634826,8688612999491580485,14613508998059484272),ParameterInfos=((Name="roughness"),(Name="scale_UV_FarDistance"),(Name="normal_rock_details"),(Name="blend_bias"),(Name="blend_sharp"),(Name="scale_UV_moss")),ExpressionGuids=(71AAB9CC412765DF70C1E2937FEAAB00,77C9CC1B482D636F1A08EC8495825D65,BD5BAAF4450A44455395599E31619ADF,B3D10A1C4CCADF567C295EAEC8F8A294,35A2DD9147394A99AFF7169C38C05EDA,1DDEB8EA45BEB8BCC1427CACF64728A6),Overrides=(False,False,False,False,False,False)),Entries[1]=(NameHashes=(3780612266984515846,10432359716872866458,13562233219286805714,14784621318251745917),ParameterInfos=((Name="hue_color_moss"),(Name="hue_color"),(Name="color_mask_B"),(Name="color_mask_A")),ExpressionGuids=(A76564454F615F3190A492B05D9FC4FB,E1EE18F64F68FBFE8ECEBC8E18973CFD,7D7E6131473C8FAD94881A9DB10BA291,81545565408743AFDCEFD2AF5A3E3CD6),Overrides=(False,False,False,False)),Entries[2]=(NameHashes=(4708953410708818575,13659855507922565127,17285477769511210430),ParameterInfos=((Name="normal"),(Name="mask_B"),(Name="mask_A")),ExpressionGuids=(EE23376C4279936ADC14329FA6B2CC43,FBB357F34AC7B4BDBA947BA8DC5FE126,DDA8E5BF4F7598DE614BD098444273E7),Overrides=(False,False,False)),ScalarValues=(1.000000,4.000000,1.000000,0.000000,0.000000,10.000000),VectorValues=((R=0.500000,G=0.500000,B=0.500000,A=0.000000),(R=0.500000,G=0.500000,B=0.500000,A=0.000000),(R=0.343750,G=0.240618,B=0.106393,A=0.000000),(R=0.072917,G=0.041091,B=0.014431,A=0.000000)),TextureValues=(Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_normal.T_cliff_a_normal"',Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_B.T_cliff_a_mask_B"',Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_A.T_cliff_a_mask_A"'),ScalarMinMaxValues=((X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000)),ScalarCurveValues=(None,None,None,None,None,None),ScalarCurveAtlasValues=(None,None,None,None,None,None),VectorChannelNameValues=((),(),(),()),VectorUsedAsChannelMaskValues=(False,False,False,False),TextureChannelNameValues=((),(),())),ReferencedTextures=(Texture2D'"/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend"',Texture2D'"/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase"',Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_basecolor.T_base_cliff_basecolor"',Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_normal.T_base_cliff_normal"',Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_A.T_cliff_a_mask_A"',Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_B.T_cliff_a_mask_B"',Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_normal.T_cliff_a_normal"'),FunctionInfos=((StateId=F5C2D4774BA63455E32B4B960D7674B6,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.BlendAngleCorrectedNormals"'),(StateId=12B6F73F4D5D4FF9D2FBF18B43945D5B,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions03/Blends/Blend_Overlay.Blend_Overlay"'),(StateId=33327DED481DDF3E62F167B37F696AA8,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/AlphaBlend/WorldAlignedBlend.WorldAlignedBlend"'),(StateId=12B6F73F4D5D4FF9D2FBF18B43945D5B,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions03/Blends/Blend_Overlay.Blend_Overlay"'),(StateId=FE67B48A44296B30FBF15EBB0FC10ADF,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.FlattenNormal"')),QualityLevelsUsed=(False,True,False))
+   ReferencedTextureGuids(0)=7458FF3241C4C0D5C9C472B1AACE3327
+   ReferencedTextureGuids(1)=B6226ADF4165E467D1B4CD87EC982B38
+   ReferencedTextureGuids(2)=8C99B6B849059948AA71798705A2232F
+   ReferencedTextureGuids(3)=D9F5CEA44901AF1542E2498F507E7E4E
+   ReferencedTextureGuids(4)=4BBC00AF4FD3EF860D71D6A155ABEF01
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=4.000000,UVChannelIndex=0,TextureName="T_base_cliff_basecolor",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_basecolor.T_base_cliff_basecolor)
+   TextureStreamingData(1)=(SamplingScale=4.000000,UVChannelIndex=0,TextureName="T_base_cliff_normal",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_normal.T_base_cliff_normal)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_cliff_a_mask_A",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_A.T_cliff_a_mask_A)
+   TextureStreamingData(3)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_cliff_a_mask_B",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_B.T_cliff_a_mask_B)
+   TextureStreamingData(4)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_cliff_a_normal",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_normal.T_cliff_a_normal)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=F05D137742A7911CEF6BE79101598F8C
+End Object

@@ -1,0 +1,38 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_cliff_a_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=5AFFD5944BF4A85ACA1BCEB9927586B4
+   Parent=Material'"/Game/LevelDesign/stylized_village/materials/cliff_materials/M_cliff.M_cliff"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="blend_bias"),ParameterValue=-0.009092,ExpressionGUID=B3D10A1C4CCADF567C295EAEC8F8A294)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="blend_sharp"),ParameterValue=2.884825,ExpressionGUID=35A2DD9147394A99AFF7169C38C05EDA)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="normal_rock_details"),ParameterValue=1.000000,ExpressionGUID=BD5BAAF4450A44455395599E31619ADF)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="scale_UV_FarDistance"),ParameterValue=2.000000,ExpressionGUID=77C9CC1B482D636F1A08EC8495825D65)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="color_mask_A"),ParameterValue=(R=0.171875,G=0.096857,B=0.034016,A=0.000000),ExpressionGUID=81545565408743AFDCEFD2AF5A3E3CD6)
+   VectorParameterValues(1)=(ParameterInfo=(Name="color_mask_B"),ParameterValue=(R=0.343750,G=0.240618,B=0.106393,A=0.000000),ExpressionGUID=7D7E6131473C8FAD94881A9DB10BA291)
+   VectorParameterValues(2)=(ParameterInfo=(Name="hue_color"),ParameterValue=(R=0.791298,G=0.775822,B=0.679542,A=1.000000),ExpressionGUID=E1EE18F64F68FBFE8ECEBC8E18973CFD)
+   VectorParameterValues(3)=(ParameterInfo=(Name="hue_color_moss"),ParameterValue=(R=0.490217,G=0.583333,B=0.000000,A=0.000000),ExpressionGUID=A76564454F615F3190A492B05D9FC4FB)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=7458FF3241C4C0D5C9C472B1AACE3327
+   ReferencedTextureGuids(1)=B6226ADF4165E467D1B4CD87EC982B38
+   ReferencedTextureGuids(2)=8C99B6B849059948AA71798705A2232F
+   ReferencedTextureGuids(3)=D9F5CEA44901AF1542E2498F507E7E4E
+   ReferencedTextureGuids(4)=4BBC00AF4FD3EF860D71D6A155ABEF01
+   CachedReferencedTextures(0)=Texture2D'"/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend"'
+   CachedReferencedTextures(1)=Texture2D'"/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_basecolor.T_base_cliff_basecolor"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_normal.T_base_cliff_normal"'
+   CachedReferencedTextures(4)=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_A.T_cliff_a_mask_A"'
+   CachedReferencedTextures(5)=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_B.T_cliff_a_mask_B"'
+   CachedReferencedTextures(6)=Texture2D'"/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_normal.T_cliff_a_normal"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=2.000000,UVChannelIndex=0,TextureName="T_base_cliff_basecolor",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_basecolor.T_base_cliff_basecolor)
+   TextureStreamingData(1)=(SamplingScale=2.000000,UVChannelIndex=0,TextureName="T_base_cliff_normal",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/T_base_cliff_normal.T_base_cliff_normal)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_cliff_a_mask_A",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_A.T_cliff_a_mask_A)
+   TextureStreamingData(3)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_cliff_a_mask_B",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_mask_B.T_cliff_a_mask_B)
+   TextureStreamingData(4)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_cliff_a_normal",TextureReference=/Game/LevelDesign/stylized_village/textures/cliff_textures/cliff_a/T_cliff_a_normal.T_cliff_a_normal)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=A34DCF7C419ECE742BF1559BE6EA0869
+End Object

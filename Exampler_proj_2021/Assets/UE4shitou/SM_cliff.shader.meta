@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 600223be18fb77749a0182155ac6b526
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_cliff_a_normal: {fileID: 2800000, guid: 1bae2fb0211663a468017f52e95f0755, type: 3}
+  - _T_base_cliff_normal: {fileID: 2800000, guid: a19aee7f393d52940a166d7dae6cc2b9,
+      type: 3}
+  - _T_base_cliff_basecolor: {fileID: 2800000, guid: efe1e3e6ae736334ab464023106ae368,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
