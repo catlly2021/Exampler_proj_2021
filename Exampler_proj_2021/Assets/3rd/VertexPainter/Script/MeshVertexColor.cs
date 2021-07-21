@@ -1,11 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
-[Serializable]
-public class MeshVertexColor : ScriptableObject {
+namespace Jefford.TA {
+	[Serializable]
+	public class MeshVertexColor : ScriptableObject {
 
-	[SerializeField]
-	public Color[] _colors;
+		[SerializeField]
+		public Color[] _colors;
+	}
+
 }
