@@ -1,6 +1,6 @@
 // Made with Amplify Shader Editor
 // Available at the Unity Asset Store - http://u3d.as/y3X 
-Shader "SM_cliff"
+Shader "Example/SM_cliff"
 {
 	Properties
 	{
@@ -20,9 +20,9 @@ Shader "SM_cliff"
 		#include "UnityStandardUtils.cginc"
 		#pragma target 3.0
 		#if defined(SHADER_API_D3D11) || defined(SHADER_API_XBOXONE) || defined(UNITY_COMPILER_HLSLCC) || defined(SHADER_API_PSSL) || (defined(SHADER_TARGET_SURFACE_ANALYSIS) && !defined(SHADER_TARGET_SURFACE_ANALYSIS_MOJOSHADER))//ASE Sampler Macros
-		#define SAMPLE_TEXTURE2D(tex,samplerTex,coord) tex.Sample(samplerTex,coord)
+			#define SAMPLE_TEXTURE2D(tex,samplerTex,coord) tex.Sample(samplerTex,coord)
 		#else//ASE Sampling Macros
-		#define SAMPLE_TEXTURE2D(tex,samplerTex,coord) tex2D(tex,coord)
+			#define SAMPLE_TEXTURE2D(tex,samplerTex,coord) tex2D(tex,coord)
 		#endif//ASE Sampling Macros
 
 		#pragma surface surf Standard keepalpha addshadow fullforwardshadows 
