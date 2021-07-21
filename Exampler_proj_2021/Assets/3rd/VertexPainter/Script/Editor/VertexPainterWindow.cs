@@ -630,7 +630,8 @@ namespace Jefford.TA {
             foreach (var obj in jobs) {
                 obj.RevertMesh ();
             }
-            SceneView.onSceneGUIDelegate -= this.OnSceneGUI;
+            // SceneView.onSceneGUIDelegate -= this.OnSceneGUI;
+            SceneView.duringSceneGui -= this.OnSceneGUI;
             Undo.undoRedoPerformed -= this.OnUndo;
         }
     }
