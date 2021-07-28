@@ -149,11 +149,11 @@ Material:
     - _GlossyReflections: 0
     - _Layer01_HeightContrast: 0
     - _Layer02_BlendContract: 1
-    - _Layer02_HeightContrast: 0
+    - _Layer02_HeightContrast: 1
     - _Layer03_BlendContract: 1
     - _Layer03_HeightContrast: 0
-    - _Layer1_Roughness: 1
-    - _Layer1_Tilling: 3.4
+    - _Layer1_Roughness: 3.12
+    - _Layer1_Tilling: 3.83
     - _Layer2_Roughness: 1
     - _Layer2_Tilling: 3.74
     - _Layer3_Roughness: 1
