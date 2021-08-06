@@ -53,28 +53,28 @@
     <UnityVersion>2021.1.15f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\RandomMotion.cs" />
     <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\DemoShotLoadScene.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\ShipHandbrake.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\DemoShot.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\BoatDev\Scripts\BoatAlignNormal.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\SimpleAutomation.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\BoatDev\Scripts\LerpCam.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\CamController.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\DemoMusic.cs" />
     <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\Sleeper.cs" />
     <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\TimedDestroy.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\ParticleSystemDistanceCulling.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\Whirlpool\Scripts\Whirlpool.cs" />
     <Compile Include="Assets\Arts\Crest\Crest-Examples\BoatDev\Scripts\RippleGenerator.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\DemoShotRobustLOD.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\RandomMotion.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\DemoMusic.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\ParticleSystemDistanceCulling.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\CamController.cs" />
     <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\DemoShotDynWaveConds.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\Collision\OceanSampleHeightEvents.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\UnderwaterEnvironmentalLighting.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\ShipAnchor.cs" />
-    <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\Collision\OceanSampleHeightDemo.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\SimpleAutomation.cs" />
     <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\PirateCoveDemo.cs" />
     <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\Collision\OceanSampleDisplacementDemo.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\Whirlpool\Scripts\Whirlpool.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\Collision\OceanSampleHeightDemo.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\BoatDev\Scripts\BoatAlignNormal.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\DemoShotRobustLOD.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\DemoShot.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\BoatDev\Scripts\LerpCam.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\ShipAnchor.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\Collision\OceanSampleHeightEvents.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\Shared\Scripts\UnderwaterEnvironmentalLighting.cs" />
+    <Compile Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Scripts\ShipHandbrake.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Arts\Crest\Crest-Examples\PirateCove\Props\Torch\readme.txt" />
