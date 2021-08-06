@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MI_Rock_B
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_Shader: {fileID: 4800000, guid: f36fe92032f21394987a69cdce6dff9b, type: 3}
+  m_ShaderKeywords: _LIGHTMAP_ON _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,6 +19,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 9617f93a33004814d8f2d15320fda789, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Basecolor:
+        m_Texture: {fileID: 2800000, guid: 9617f93a33004814d8f2d15320fda789, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 24f43e34dc3d2254e8d4a75a1d66f286, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -43,6 +51,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 9617f93a33004814d8f2d15320fda789, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -55,23 +67,65 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 2800000, guid: 24f43e34dc3d2254e8d4a75a1d66f286, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 4e7911de023fc7447a17b7bd9ac4ebeb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopNormal:
+        m_Texture: {fileID: 2800000, guid: 411d81c4fbc5cda4a8637cea280fc7ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture:
+        m_Texture: {fileID: 2800000, guid: 3a7ff8b998b30b04186c265c4b35d2c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
+    - _AlphaCutoff: 0.5
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _DarkEmssion: 6.7
     - _DetailNormalMapScale: 1
+    - _DirSoft: 0.362
     - _DstBlend: 0
+    - _Float3: 0.44
+    - _Float5: 0.026
+    - _Float6: 0.13
     - _GlossMapScale: 0.39
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Lightmap: 1
     - _Metallic: 0.27
     - _Mode: 0
+    - _NormalScale: 2
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _Roughness: 0.297
     - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
+    - _SpecularIntensity: 0.33
     - _SrcBlend: 1
+    - _TopArea: 0.82
+    - _TopDepth: 0.57
+    - _TopIntensity: 2.42
+    - _TopSoft: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 0.3233802, g: 0.37379375, b: 0.4056604, a: 1}
+    - _DarkColor: {r: 0.39315593, g: 0.7634638, b: 0.8773585, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LightColor: {r: 0.7028302, g: 1, b: 0.98181486, a: 0}
+    - _LightDir: {r: 3.88, g: 23.64, b: -18.39, a: 0}
+    - _MaskSpecularColor: {r: 0.7688679, g: 1, b: 0.92793554, a: 0}
+    - _TopColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

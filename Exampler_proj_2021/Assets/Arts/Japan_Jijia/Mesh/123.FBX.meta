@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: f11609a35c63f004ab858bff43c0f27e
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box025
+    100004: Box026
+    100006: Box027
+    100008: Box028
+    100010: BoxB001
+    100012: buildingA009
+    100014: buildingA010
+    100016: buildingA011
+    100018: buildingA012
+    100020: lajitong001
+    100022: lajitong002
+    100024: lajitong003
+    100026: lajitong004
+    100028: lajitong005
+    100030: Object008
+    400000: //RootNode
+    400002: Box025
+    400004: Box026
+    400006: Box027
+    400008: Box028
+    400010: BoxB001
+    400012: buildingA009
+    400014: buildingA010
+    400016: buildingA011
+    400018: buildingA012
+    400020: lajitong001
+    400022: lajitong002
+    400024: lajitong003
+    400026: lajitong004
+    400028: lajitong005
+    400030: Object008
+    2100000: 'Material #21136'
+    2100002: 'Material #21109'
+    2100004: 'Material #21174'
+    2300000: Box025
+    2300002: Box026
+    2300004: Box027
+    2300006: Box028
+    2300008: BoxB001
+    2300010: buildingA009
+    2300012: buildingA010
+    2300014: buildingA011
+    2300016: buildingA012
+    2300018: lajitong001
+    2300020: lajitong002
+    2300022: lajitong003
+    2300024: lajitong004
+    2300026: lajitong005
+    2300028: Object008
+    3300000: Box025
+    3300002: Box026
+    3300004: Box027
+    3300006: Box028
+    3300008: BoxB001
+    3300010: buildingA009
+    3300012: buildingA010
+    3300014: buildingA011
+    3300016: buildingA012
+    3300018: lajitong001
+    3300020: lajitong002
+    3300022: lajitong003
+    3300024: lajitong004
+    3300026: lajitong005
+    3300028: Object008
+    4300000: BoxB001
+    4300002: lajitong001
+    4300004: Object008
+    4300006: Box025
+    4300008: Box026
+    4300010: buildingA009
+    4300012: buildingA010
+    4300014: buildingA011
+    4300016: buildingA012
+    4300018: Box027
+    4300020: lajitong002
+    4300022: lajitong003
+    4300024: lajitong004
+    4300026: lajitong005
+    4300028: Box028
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

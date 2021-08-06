@@ -133,8 +133,8 @@ Material:
     - _PomPlane: 0
     - _PudlleDepth: 0.914
     - _QueueOffset: 0
-    - _RainDropIntensity: 0.681
-    - _RainDropSpeed: 25
+    - _RainDropIntensity: 0.89
+    - _RainDropSpeed: 21.78
     - _RainDropTlling: 6.61
     - _ReceiveShadows: 1
     - _Ref_Plane: 0
@@ -145,12 +145,12 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _WaterDir_X: -0.43
-    - _WaterDir_Z: -1
+    - _WaterDir_X: 0.24
+    - _WaterDir_Z: -0.27
     - _WaterNormalIntensity: 0.535
     - _WaterNormalTilling: 6.67
-    - _WaterRoughness: 0.0733
-    - _WaterSpeed: 0.112
+    - _WaterRoughness: 0.1
+    - _WaterSpeed: 0.92
     - _WorkflowMode: 1
     - _WorldUVTilling: 3.87
     - _ZWrite: 1
@@ -163,7 +163,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0.6792453, g: 0.4302566, b: 0.2082592, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _PudlleColor: {r: 0.26415092, g: 0.25231397, b: 0.24047701, a: 0}
+    - _PudlleColor: {r: 0.2924528, g: 0.2644031, b: 0.20830366, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _Vector0: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
